@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+    <title>ConfBuddy</title>
+</head>
+
+<body>
+
+    <div class="element"></div>
+
+    </div>
+
+    <p class="eventheader">Event schedule</p>
+
+    <div class="schedule">
+        <div class="eventstream" id="all">All</div>
+        <div class="eventstream" id="eventstream1">Hacker</div>
+        <div class="eventstream" id="eventstream2">Hustler</div>
+        <div class="eventstream" id="eventstream3">Hipster</div>
+
+
+        <div class="hackerdetails">
+            <div class="hackers events">
+            <p><b>4th of June // 9.30am</b></p>
+            <p>"Javascript - Understanding the weird parts"</p>
+            <p><b>Speaker:</b> Douglas Crockford</p>
+          </div>
+
+            <div class="hackers events">
+            <p><b>4th of June // 11.30am</b></p>
+            <p>"Why I rather communicate with computers than humans"</p>
+            <p><b>Speaker:</b> Linus Torvalds</p>
+          </div>
+
+            <div class="hackers events">
+            <p><b>4th of June // 14.30am</b></p>
+            <p>"How to rock your own programming language"</p>
+            <p><b>Speaker:</b> Yukihiro Matsumoto</p>
+          </div>
+
+            <div class="hackers events">
+            <p><b>4th of June // 16.00am</b></p>
+            <p>"Keeping that plane in the air - How to code safely in risky industries"</p>
+            <p><b>Speaker:</b> Leanna Rierson</p>
+          </div>
+        </div>
+
+
+
+                <div class="hustlerdetails">
+                    <div class="hustlers events">
+                    <p><b>4th of June // 9.00am</b></p>
+                    <p>"Uber: Why disruption changes the tech industry"</p>
+                    <p><b>Speaker:</b> Travis Calanik</p>
+                  </div>
+
+                    <div class="hustlers events">
+                    <p><b>4th of June // 10.30am</b></p>
+                    <p>"Why diversity matters in programming"</p>
+                    <p><b>Speaker:</b> Reshma Saujani</p>
+                  </div>
+
+                    <div class="hustlers events">
+                    <p><b>4th of June // 14.30am</b></p>
+                    <p>"What matters during the first weeks after launching a startup"</p>
+                    <p><b>Speaker:</b> Jake Schwartz</p>
+                  </div>
+                </div>
+
+                <div class="hipsterdetails">
+                    <div class="hipsters events">
+                    <p><b>4th of June // 9.30am</b></p>
+                    <p>"Why we should love CSS - and what's next"</p>
+                    <p><b>Speaker:</b> Hampton Catlin</p>
+                  </div>
+
+                    <div class="hipsters events">
+                    <p><b>4th of June // 11.30am</b></p>
+                    <p>"Why we need to think coding like children"</p>
+                    <p><b>Speaker:</b> Linda Liukas</p>
+                  </div>
+
+                    <div class="hipsters events">
+                    <p><b>4th of June // 14.30am</b></p>
+                    <p>"The challenge of millon devices - How to control your layout in one step"</p>
+                    <p><b>Speaker:</b> Jon Duckett</p>
+                  </div>
+
+                    <div class="hipsters events">
+                    <p><b>4th of June // 16.00am</b></p>
+                    <p>"Why virtual reality drives social change"</p>
+                    <p><b>Speaker:</b> John D. Carmack</p>
+                  </div>
+                </div>
+
+
+    </div>
+
+    <!-- Step 1 -->
+    <div id="modal">
+      <!-- Step 5 -->
+       <div class="modal-content">
+         <!-- Step 4 -->
+          <span id="close-modal">x</span>
+        <div class="modal-body">
+          <div>
+            <p><b>4th of June // 16.00am</b></p>
+            <p>"Why virtual reality drives social change"</p>
+            <p><b>Speaker:</b> John D. Carmack</p>
+            <p>"The CTO of Oculus gives a keynote on how virtual reality will drive social change in the future and how it will change our everyday lives all around the world."</p>
+            <p><button>Register event</button></p>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/typed.js"></script>
+    <script src="js/app.js"></script>
+
+    <script>
+        $(function() {
+            $(".element").typed({
+                strings: ["CONFBUDDY."],
+                typeSpeed: 0
+            });
+        });
+    </script>
+
+</body>
+
+</html>
